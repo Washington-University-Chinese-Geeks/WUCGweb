@@ -72,7 +72,7 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/hackathon">
+              <a className="nav-link" href="/events">
                 <span className="rolling-text">Events</span>
               </a>
             </li>

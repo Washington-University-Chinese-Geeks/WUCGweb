@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import data from '@/data/testimonials';
-import { Navigation, Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 function Testimonials() {
   const swiperOptions = {

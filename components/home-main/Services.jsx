@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import data from '@/data/services';
-import { Navigation } from 'swiper';
+import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 function Services() {
   const swiperOptions = {
@@ -66,25 +66,36 @@ function Services() {
             className="swiper-container"
             data-swiper="container"
           >
-            {data.map((item, i) => (
-              <SwiperSlide key={i}>
-                <div className="item-box">
-                  <div className="icon mb-40 opacity-5">
-                    <img src={item.img} alt="" />
+            {data.map((item, i) => {
+              const external = /^https?:\/\//.test(item.link);
+              return (
+                <SwiperSlide key={i}>
+                  <div className="item-box">
+                    <div className="icon mb-40 opacity-5">
+                      <img src={item.img} alt="" />
+                    </div>
+                    <h5 className="mb-15">{item.title}</h5>
+                    <p>{item.desc}</p>
+                    <a
+                      href={item.link}
+                      className="rmore mt-30"
+                      {...(external
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : {})}
+                    >
+                      <span className="sub-title">
+                        {external ? 'Launch' : 'Read More'}
+                      </span>
+                      <img
+                        src="/assets/imgs/arrow-right.png"
+                        alt=""
+                        className="icon-img-20 ml-5"
+                      />
+                    </a>
                   </div>
-                  <h5 className="mb-15">{item.title}</h5>
-                  <p>{item.desc}</p>
-                  <a href={item.link} className="rmore mt-30">
-                    <span className="sub-title">Read More</span>
-                    <img
-                      src="/assets/imgs/arrow-right.png"
-                      alt=""
-                      className="icon-img-20 ml-5"
-                    />
-                  </a>
-                </div>
-              </SwiperSlide>
-            ))}
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </div>

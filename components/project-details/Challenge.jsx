@@ -38,7 +38,7 @@ function Challenge() {
             <div className="row">
               <div className="col-lg-5">
                 <div className="img1 sm-mb50">
-                  <img src="/assets/imgs/works/3/5.jpg" alt="" />
+                  <img src="/assets/imgs/events/hackathon2024/5.jpg" alt="" />
                 </div>
               </div>
               <div className="col-lg-7">

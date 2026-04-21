@@ -3,24 +3,18 @@
     "title": "Practice LeetCode",
     "img": "/assets/imgs/serv-icons/3.png",
     "desc": "Interactive sessions focused on solving key LeetCode problems and mastering coding interview techniques.",
-    "link": "/page-404"
+    "link": "https://washington-university-chinese-geeks.github.io/Leetcode_Checker/"
   },
   {
     "title": "Project Development",
     "img": "/assets/imgs/serv-icons/4.png",
     "desc": "Guided workshops where you can develop real-world projects, from ideation to execution.",
-    "link": "/page-404"
+    "link": "https://github.com/Washington-University-Chinese-Geeks"
   },
   {
     "title": "Course Selection",
     "img": "/assets/imgs/serv-icons/5.png",
     "desc": "Personalized assistance in choosing the right courses to align with your academic and career goals.",
-    "link": "/page-404"
-  },
-  {
-    "title": "Achieve in Class",
-    "img": "/assets/imgs/serv-icons/5.png",
-    "desc": "Effective strategies and personalized support to help you master your coursework and boost your GPA.",
-    "link": "/page-404"
+    "link": "/course-intro-lectures-fall-2025"
   }
 ]

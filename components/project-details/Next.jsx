@@ -13,7 +13,7 @@ function Next() {
           <div className="col-md-6 rest">
             <div
               className="text-left box bg-img"
-              data-background="/assets/imgs/works/3/1.jpg"
+              data-background="/assets/imgs/events/hackathon2024/1.jpg"
             >
               <div className="cont d-flex align-items-center">
                 <div>
@@ -31,7 +31,7 @@ function Next() {
           <div className="col-md-6 rest">
             <div
               className="text-right d-flex box bg-img"
-              data-background="/assets/imgs/works/3/2.jpg"
+              data-background="/assets/imgs/events/hackathon2024/2.jpg"
             >
               <div className="ml-auto">
                 <div className="cont d-flex align-items-center">

@@ -58,7 +58,7 @@ function Header() {
           </div>
           <div className="col-lg-6 d-flex justify-content-end order-md-1">
             <div className="info">
-              <h2 className="mb-10">100 +</h2>
+              <h2 className="mb-10">300 +</h2>
               <h6>
                 Club Members <br />
                 <span className="main-color">Have joined</span>

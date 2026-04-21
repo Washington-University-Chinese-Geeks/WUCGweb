@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import data from '@/data/portfolios/works1';
-import { Mousewheel, Navigation, Pagination } from 'swiper';
+import { Mousewheel, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 function Portfolio() {
